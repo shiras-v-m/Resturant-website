@@ -1,0 +1,555 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anton&family=Dancing+Script:wght@600&family=Inter:wght@300;400;500;600;700;800;900&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* primary font -amatic sc, Inter*/ 
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* navigation begins */
+#navi{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.box-nav{
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+}
+
+.btn-bgRemove{
+    border: 0px;
+    background-color: white;
+    transition: 0.1s;
+}
+.btn-bgRemove:hover{
+  border-bottom: 6px dotted red;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Navigation ends */
+/* Home begins */
+.home{
+    background-color: rgb(231, 231, 236);
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6rem; */
+
+}
+img{
+    text-align: center;
+}
+.home-title{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 67px;
+}
+.para{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-left: 30px;
+    justify-content: center;
+}
+.home-content{
+    
+}
+.box-playbtn{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+.book-btn{
+    padding:0.7rem 1.5rem;
+    background-color: rgb(183, 13, 4);
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.book-btn:hover{
+    background-color: rgb(130, 10, 4);
+    box-shadow: 0px 0px 15px rgba(255, 126, 126, 0.783);
+}
+.playvideoIcon{
+    font-size: 40px;
+    padding-left: 30px;
+    color: red;
+    padding-right:6px ;
+    cursor: pointer;
+}
+
+.play-text{
+    transition: 0.5s;
+    font-weight: 600;
+
+}
+.play-text:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.home-img{
+
+}
+.home-img:hover{
+    animation: rotation 2.5s infinite linear;
+ 
+
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(90deg);
+    }
+    25%{
+        transform: rotate(180deg);
+    }
+    50%{
+        transform: rotate(270deg);
+    }
+    75%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(450deg);
+    }
+}
+
+
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 1rem;
+}
+/* Home ends */
+
+/* About US */
+.aboutus{
+    text-align: center;
+ 
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.aboutus h6{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(190, 178, 178);
+}
+.aboutus h4 , .aboutus .aboutus-text{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+}
+.aboutus .aboutus-text{
+    color: red;
+}
+
+.booking-num{
+    margin: 0;
+    
+    font-size: 20px;
+}
+
+/* aboutus ends */
+
+
+/* why choose begins */
+#whytasty{
+    padding-top: 50px;
+    background-color: rgb(231, 231, 236);
+    text-align: center;
+}
+
+.box-whychoose{
+    margin: 3rem 30px;
+    padding: 2rem;
+    background-color: red;
+    
+}
+.box-whychoose h2{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 3px;
+    
+}
+.box-whychoose p{
+    color: white;
+    text-align: justify;
+    letter-spacing: 0.8px;
+    word-spacing: -1.1px;
+
+}
+.box1-parent{
+    margin: 3rem auto;
+    padding: 3rem;
+
+}
+.box1{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.box1 p{
+    padding-top: 1rem;
+    text-align: justify;
+}
+.taskIcon{
+    font-size: 2.5rem;
+    color: red;
+}
+.box2{
+    margin-top: 2rem;
+}
+/* why choose ends */
+
+/* menu begins */
+
+#menu{
+    text-align: center;
+
+}
+#menu    h6{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(190, 178, 178);
+}
+#menu h4 , #menu .menu-text{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+#menu .menu-text{
+    color: red;
+}
+#menu{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.tab-menu-text{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(190, 178, 178);
+}
+.starter-text{
+    font-size: 35px;
+    color: red;
+}
+
+.tab-heading-text{
+    border-bottom: 4px solid gainsboro;
+    color: black;
+    font-size: 20px;
+}
+.tab-heading-text:hover{
+    border-bottom: 4px solid rgb(243, 12, 12);
+    color: red;
+}
+.price{
+    color: red;
+    font-weight: 700;
+}
+
+
+
+/* Menu ends */
+
+/* chefs begins */
+#chefs{
+    background-color: rgb(231, 231, 236);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    
+}
+#chefs    h6{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(190, 178, 178);
+}
+#chefs h4 , #chefs .chefs-text{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    
+}
+#chefs .chefs-text{
+    color: red;
+}
+.chef-card{
+    padding-bottom: 3rem;
+}
+.chef-box{
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.chef-box:hover{
+    transform: scale(1.1);
+}
+
+.chef-name{
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.chef-designation{
+    font-size: 0.9rem;
+    color: rgb(153, 149, 149);
+}
+.chef-details{
+    font-style: italic;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+/* chefs ends */
+
+/* book table begins */
+#bookTable{
+    background-color: rgb(231, 231, 236);
+    text-align: center;
+    padding-top: 80px;
+}
+#bookTable  h6{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(190, 178, 178);
+}
+#bookTable h4 , #bookTable .bookTable-text{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+.bookTable-text{
+    color: red;
+}
+
+input[type=text],input[type=email],input[type=number],textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+  }
+  textarea{
+
+    padding-bottom: 35px;
+  }
+  input[type=text]:focus,input[type=email]:focus, select:focus{
+    outline: 0.2px solid red;
+  }
+
+  
+
+  
+  .contactform{
+    border-radius: 5px;
+    background-color: #f9efef;
+    padding: 20px;
+  }
+
+  /* toast  */
+  .toast{
+    position: fixed;
+    bottom: 20px;
+
+
+  }
+  .toast2{
+    position: fixed;
+    bottom: 20px;
+
+
+  }
+  /* toast ends */
+/* book table ends */
+
+/* gallery begins */
+#gallery{
+    text-align: center;
+ 
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#gallery h6{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(190, 178, 178);
+}
+#gallery h4 , #gallery .gallery-text{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+}
+#gallery .gallery-text{
+    color: red;
+}
+
+.img-opacity{
+
+}
+.text-head{
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 5px gray;
+    font-weight: 700;
+}
+.text-head span{
+    font-weight: 700;
+
+
+  
+    color: red;
+
+    border: 1px solid groove;
+    text-shadow: 1px 1px 1px gray;
+ 
+
+}
+
+/* carosal slide begins */
+
+/* carosal slide begins */
+/* gallery ends */
+
+
+/* contact us begins*/
+#contactus{
+    text-align: center;
+ 
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#contactus h6{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(190, 178, 178);
+}
+#contactus h4 , #contactus .contactus-text{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+}
+#contactus .contactus-text{
+    color: red;
+}
+/* contact US ends */
+
+
+/* footer begins */
+footer{
+    padding: 1rem;
+    padding-top:2.5rem;
+    background-color: black;
+}
+.footer-headings{
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+.footer-para{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: gainsboro;
+
+}
+.footer-phone{
+    font-family: sans-serif;
+    color: rgb(245, 240, 240);
+}
+.footer-email{
+    font-size: 14px;
+    color: rgb(245, 240, 240);
+}
+.footer-email span{
+    font-size: 13px;
+    color: gainsboro;
+}
+.socialIcon{
+    color: white;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 18px;
+}
+.socialIcon:hover{
+    border: 1px solid white;
+}
+.copyright-text{
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+    color: gainsboro;
+}
+.copyright-text span{
+    color: rgb(245, 240, 240);
+    font-weight: 700;
+}
+.designed-text{
+    text-align: center;
+    color: gainsboro;
+    font-size: 13px;
+}
+.designed-text a{
+    font-family: sans-serif;
+    color: rgb(245, 240, 240);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+.address{
+    padding-right: 10px;
+}
+.phone{
+ padding-right: 10px;
+}
+.clock{
+    padding-right: 10px;
+}
+/* footer ends */
+
+/* gotop btn  */
+.go-box{
+    text-align: right;
+}
+.goTop-btn{
+    padding:0.7rem 1.1rem;
+    background-color: rgb(183, 13, 4);
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    transition: 0.5s;
+ 
+
+}
+.goTop-btn:hover{
+    background-color: rgb(130, 10, 4);
+    box-shadow: 0px 0px 15px rgba(255, 126, 126, 0.783);
+}
+/* gotop btn ends */
